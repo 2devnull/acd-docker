@@ -37,5 +37,5 @@ unionfs:
   environment:
     MOUNT_UNITE: /mnt/local-decrypted=RW:/mnt/acd-decrypted
     MOUNT_TARGET: /mnt/union/
-    WAIT_FOR_MNT: /mnt/acd-decrypted
+    WAIT_FOR_MNT: /mnt/acd-decrypted 
   privileged: true
